@@ -60,6 +60,7 @@ Full-stack e-commerce app with product catalogue, cart, Stripe-style payments, J
 | [pharma-bounce-rate-forecasting](https://github.com/theanuragchavan/pharma-bounce-rate-forecasting) | Python · Gradio | Forecasting · UI |
 | [kpmg-data-analytics](https://github.com/theanuragchavan/kpmg-data-analytics-virtual-internship) | Python · Pandas | Business Analytics |
 | [quantium-data-analytics](https://github.com/theanuragchavan/quantium-data-analytics-virtual-internship) | Python · Pandas | Retail Analytics |
+| [twitter-sentiment-bertopic](https://github.com/theanuragchavan/twitter-sentiment-bertopic) | Python · RoBERTa · BERTopic | NLP · Social Analytics |
 | [music-recommendation-spotify](https://github.com/theanuragchavan/music-recommendation-spotify) | Python · Spotify API | Recommendation |
 
 ---
