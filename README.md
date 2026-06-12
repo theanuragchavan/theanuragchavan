@@ -51,7 +51,6 @@ Full-stack e-commerce app with product catalogue, cart, Stripe-style payments, J
 | [bse-trading-agent](https://github.com/theanuragchavan/bse-trading-agent) | Python · BSE | Algorithmic Trading |
 | [british-airways-data-science](https://github.com/theanuragchavan/british-airways-data-science) | Python · Scikit-learn | NLP · Classification |
 | [mern-ecommerce-app](https://github.com/theanuragchavan/mern-ecommerce-app) | React · Node · MongoDB | Full-Stack Web |
-| [dsml-thyroid-cancer](https://github.com/theanuragchavan/dsml-thyroid-cancer-prediction) | Python · Scikit-learn | Clinical ML |
 | [sarcasm-detection-nlp](https://github.com/theanuragchavan/sarcasm-detection-nlp) | Python · NLP | Text Classification |
 | [hybrid-fashion-recommendation](https://github.com/theanuragchavan/hybrid-fashion-recommendation) | Python · Scikit-learn | Recommender System |
 | [arima-stock-forecasting](https://github.com/theanuragchavan/arima-stock-forecasting) | Python · statsmodels | Time Series |
