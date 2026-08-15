@@ -8,9 +8,9 @@ Software engineer. I build AI systems that hold up outside a demo and check whet
 ## Featured Projects
 
 ### 🔍 [Deep-Research Agent Team with a Validated Grounding Evaluator](https://github.com/theanuragchavan/deep-research-grounding-evaluator)
-Event-driven multi-agent research pipeline — a planner fans four sub-questions out to parallel async workers, a counter-based fan-in blocks until every result lands, and a writer produces a cited report. The interesting part is the judge: an LLM scoring every claim against its cited source, **required in code to quote the evidence span**, so it cannot approve a claim it can't point at.
+Event-driven multi-agent research pipeline. A planner fans four sub-questions out to parallel async workers, a counter-based fan-in blocks until every result lands, and a writer produces a cited report. The interesting part is the judge: an LLM scoring every claim against its cited source, **required in code to quote the evidence span**, so it cannot approve a claim it can't point at.
 
-Validated it adversarially with typed corruptions and uncorrupted controls. That exercise found **four defects in my own test harness** rather than in the system under test. A human approval gate raised grounding from 75% to 91% *on planted errors*. Profiling caught one blocking call inside the event loop that had silently reduced four workers to single-worker throughput — 3.12x once fixed.
+Validated it adversarially with typed corruptions and uncorrupted controls. That exercise found **four defects in my own test harness** rather than in the system under test. A human approval gate raised grounding from 75% to 91% *on planted errors*. Profiling caught one blocking call inside the event loop that had silently reduced four workers to single-worker throughput. Fixing it gave 3.12x.
 
 Full write-up, including what it doesn't do, in [`CASE_STUDY.md`](https://github.com/theanuragchavan/deep-research-grounding-evaluator/blob/main/CASE_STUDY.md).
 
@@ -25,7 +25,7 @@ MSc dissertation. A task-oriented dialogue agent that infers five user engagemen
 
 ---
 
-### 📡 [Big Data GPS Clustering — GeoLife](https://github.com/theanuragchavan/big-data-gps-analysis)
+### 📡 [Big Data GPS Clustering on GeoLife](https://github.com/theanuragchavan/big-data-gps-analysis)
 Distributed clustering of 11 million GPS points (Microsoft GeoLife) on Databricks / PySpark. Custom MapPartitions-based KMeans, DBSCAN with Haversine feature engineering, spatial partitioning by lat/lon bucket, and a 200-run grid search. Best silhouette: KMeans 0.705 (cycling), DBSCAN 0.695 (cycling).
 
 `PySpark` · `Databricks` · `KMeans` · `DBSCAN` · `Haversine`
@@ -53,7 +53,7 @@ Full-stack e-commerce app with product catalogue, cart, payments, JWT auth, Clou
 
 ---
 
-### ✈️ [British Airways — Forage virtual experience](https://github.com/theanuragchavan/british-airways-data-science)
+### ✈️ [British Airways: Forage virtual experience](https://github.com/theanuragchavan/british-airways-data-science)
 A [Forage](https://www.theforage.com/) job simulation, not employment. Two parts: web-scraped and sentiment-analysed 1,000+ customer reviews with BeautifulSoup + VADER; predicted flight-booking completion with a Random Forest classifier (82% accuracy). Key drivers: purchase lead time, flight duration, route.
 
 `Python` · `BeautifulSoup` · `scikit-learn` · `VADER` · `Random Forest`
