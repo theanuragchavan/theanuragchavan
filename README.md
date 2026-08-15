@@ -1,7 +1,7 @@
 # Anurag Chavan
 
 **MSc Computer Science (Artificial Intelligence)** · University of Nottingham (2024–2026)
-Software engineer. I build AI systems that hold up outside a demo — and I check whether they actually work before I claim they do.
+Software engineer. I build AI systems that hold up outside a demo and check whether they actually work before I claim they do.
 
 ---
 
